@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- swipper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- box-icons css -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- emailjs -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        // Initialize EmailJS with your public key
+        emailjs.init('1BjQKqgaY_gsskkUu'); // Replace with your actual public key
+      })();
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skill">Skill</a>
+        <a href="#project">Project</a>
+        <a href="#profile">Profile</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello,It's Me</h3>
+        <h1>Priyanshu</h1>
+        <h3>And I'm a <span class="typing"></span></h3>
+        <p>
+          I'm a Web Developer and Software Engineer <br />I specialize in
+          crafting exceptional websites and engaging front-end designs.<br />With
+          expertise spanning web development, user interface design, and more,I
+          bring innovative digital solutions to life.
+        </p>
+        <div class="social-media">
+          <a href="https://x.com/Priyanshu735"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/priyanshu-aarya/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/simple07-boy"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/simple_07.boy/"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+        <a href="Resume.pdf" class="btn">Download Resume</a>
+      </div>
+      <div class="home-photo">
+        <svg
+          id="sw-js-blob-svg"
+          viewBox="0 0 120 120"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+              <stop
+                id="stop1"
+                stop-color="rgba(55, 248, 114.284, 1)"
+                offset="0%"
+              ></stop>
+              <stop
+                id="stop2"
+                stop-color="rgba(251, 168, 31, 1)"
+                offset="100%"
+              ></stop>
+            </linearGradient>
+            <clipPath id="blob-clip">
+              <path
+                d="M20.3,-21.4C26.3,-14.3,31.2,-7.1,31.6,0.4C32,8,28,15.9,22,20.3C15.9,24.7,8,25.5,0.5,25C-6.9,24.5,-13.8,22.6,-21.9,18.2C-30,13.8,-39.3,6.9,-38,1.3C-36.8,-4.4,-24.9,-8.8,-16.9,-15.9C-8.8,-23.1,-4.4,-33.1,1.4,-34.5C7.1,-35.9,14.3,-28.6,20.3,-21.4Z"
+                transform="translate(60,60)"
+              />
+            </clipPath>
+          </defs>
+          <path
+            fill="url(#sw-gradient)"
+            d="M20.3,-21.4C26.3,-14.3,31.2,-7.1,31.6,0.4C32,8,28,15.9,22,20.3C15.9,24.7,8,25.5,0.5,25C-6.9,24.5,-13.8,22.6,-21.9,18.2C-30,13.8,-39.3,6.9,-38,1.3C-36.8,-4.4,-24.9,-8.8,-16.9,-15.9C-8.8,-23.1,-4.4,-33.1,1.4,-34.5C7.1,-35.9,14.3,-28.6,20.3,-21.4Z"
+            width="100%"
+            height="100%"
+            transform="translate(60 60)"
+            stroke-width="0"
+            style="transition: all 0.3s ease 0s"
+          ></path>
+          <image
+            xlink:href="img1.png"
+            x="35"
+            y="35"
+            width="50"
+            height="50"
+            clip-path="url(#blob-clip)"
+          />
+        </svg>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img1.png" height="400px" width="200px" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          Hello! I'm Priyanshu, a passionate Web Developer and Software Engineer
+          dedicated to creating outstanding digital experiences. With a keen eye
+          for design and a deep understanding of web technologies, I specialize
+          in crafting responsive, user-friendly websites and applications.
+          Currently, I am pursuing a B.Tech in Computer Science and Engineering
+          with a specialization in Artificial Intelligence.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Journey</span></h2>
+      <div class="education-row">
+        <div class="education-column">
+          <h3 class="title">Education</h3>
+          <div class="education-box">
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class='bx bxs-calendar'></i>2017-2018
+                </div>
+                <h2>Class-X</h2>
+                <h1>School - Kendriya Vidyalaya KankerBagh ,Patna</h1>
+                <h1>Percentage - 73.8%</h1>
+              </div>
+            </div>
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class='bx bxs-calendar'></i>2019-2020
+                </div>
+                <h2>Class-XII</h2>
+                <h1>School - Adarsh Vikas Vidyalaya,Patna</h1>
+                <h1>Percentage - 70.6%</h1>
+              </div>
+            </div>
+            <div class="education-content">
+              <div class="content">
+                <div class="year">
+                  <i class='bx bxs-calendar'></i>2021-2025
+                </div>
+                <h2>B.Tech - Computer Science And Engineering with specialization AI(Artifical Intelligence)</h2>
+                <h1>College - Institute of Engineering And Management, Kolkata</h1>
+                <h1>CGPA - 8.645 (till 3rd year)</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skill" id="skill">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="hero">
+        <div class="container1">
+          <h1 class="heading1">Web Development Skills</h1>
+          <div class="technical-bars">
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-html5"></i>
+              <div class="info">
+                <span>HTML</span>
+              </div>
+              <div class="progress-line html">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-css3"></i>
+              <div class="info">
+                <span>CSS</span>
+              </div>
+              <div class="progress-line css">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-javascript"></i>
+              <div class="info">
+                <span>JavaScript</span>
+              </div>
+              <div class="progress-line javaScript">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-react"></i>
+              <div class="info">
+                <span>React js</span>
+              </div>
+              <div class="progress-line reactJs">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-nodejs"></i>
+              <div class="info">
+                <span>Node js</span>
+              </div>
+              <div class="progress-line nodeJs">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <img
+                src="express.png"
+                alt=""
+                height="20rem"
+                width="35rem"
+                style="color: #147bbc"
+              />
+              <div class="info">
+                <span>Express Js</span>
+              </div>
+              <div class="progress-line expressjs">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-mongodb"></i>
+              <div class="info">
+                <span>MongoDB</span>
+              </div>
+              <div class="progress-line mongodb">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-bootstrap"></i>
+              <div class="info">
+                <span>Bootstrap</span>
+              </div>
+              <div class="progress-line bootstrap">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <img src="mysql.png" alt="" height="30rem" width="30rem" />
+              <div class="info">
+                <span>MySql</span>
+              </div>
+              <div class="progress-line mySql">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container1">
+          <h1 class="heading1">Programming Languages</h1>
+          <div class="technical-bars">
+            <div class="bar">
+              <img
+                src="c.webp"
+                alt=""
+                height="19rem"
+                width="19rem"
+                style="color: #147bbc"
+              />
+              <div class="info">
+                <span>C</span>
+              </div>
+              <div class="progress-line C">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-c-plus-plus"></i>
+              <div class="info">
+                <span>C++</span>
+              </div>
+              <div class="progress-line Cplusplus">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-java"></i>
+              <div class="info">
+                <span>Java</span>
+              </div>
+              <div class="progress-line java">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <i style="color: #147bbc" class="bx bxl-python"></i>
+              <div class="info">
+                <span>Python</span>
+              </div>
+              <div class="progress-line python">
+                <span></span>
+              </div>
+            </div>
+            <div class="bar">
+              <img src="sql.png" alt="" height="19rem" width="19rem" />
+              <div class="info">
+                <span>Sql</span>
+              </div>
+              <div class="progress-line sql">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container1">
+          <h1 class="heading1">Professional Skills</h1>
+          <div class="radial-bars">
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">85%</div>
+              <div class="text">Creativity</div>
+            </div>
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">70%</div>
+              <div class="text">Communication</div>
+            </div>
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">75%</div>
+              <div class="text">Problem Solving</div>
+            </div>
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">90%</div>
+              <div class="text">Teamwork</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="project" id="project">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="project-container">
+        <div class="project-box">
+          <img src="weather.jpg" height="230px" width="500px" alt="" />
+          <div class="project-layer">
+            <h4>Weather Web</h4>
+            <p>
+              Weather web gives you weather forecast of next 3 houres and next 5 days and also gives humidity,speed of wind,sunrise, sunset and local time and various stuff.
+            </p>
+            <a href="https://github.com/simple07-boy/Weather_Website"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img
+            src="online_examination.webp"
+            height="230px"
+            width="500px"
+            alt=""
+          />
+          <div class="project-layer">
+            <h1>Online examination System</h1>
+            <p>
+              Online examinatin System which conductes examination online having various functin screen lock and timer e.t.c. We can also make question papers in the website.
+            </p>
+            <a href="https://github.com/simple07-boy/Online_Examination_System"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="webinar.png" height="230px" width="500px" alt="" />
+          <div class="project-layer">
+            <h1>Virtual Event Management System</h1>
+            <p>
+              A event system facilitating conferences,webinars, and workshops with scheduling,registration, live streaming, and attendee interaction.
+            </p>
+            <a href="https://github.com/simple07-boy/Virtual_Event_Management_System"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="spotify.jpg" height="230px" width="500px" alt="" />
+          <div class="project-layer">
+            <h4>Spotify Clone</h4>
+            <p>
+              A website where we can listen various songs free. 
+            </p>
+            <a href="https://github.com/simple07-boy/Spotify"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="game.avif" height="230px" width="500px" alt="" />
+          <div class="project-layer">
+            <h4>AloneGamer</h4>
+            <p>
+              A game which can be played by alone .
+            </p>
+            <a href="https://github.com/simple07-boy/AloneGamer"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="threadify.avif" height="230px" width="500px" alt="" />
+          <div class="project-layer">
+            <h4>Threadify</h4>
+            <p>
+              A website where you can buy anythingh which is available.We browse,select,and purchase top-quality clothing with seamless user experience.
+            </p>
+            <a href="https://github.com/simple07-boy/Threadify"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="profile" id="profile">
+      <div class="testimonial-container">
+        <h2 class="heading">Online <span>Profiles</span></h2>
+        <div class="testimonial-wrapper">
+          <div class="testimonial-box mySwiper">
+            <div class="testimonial-content swiper-wrapper">
+              <div class="testimonial-slide swiper-slide">
+                <img
+                  src="leetcode.png"
+                  height="230px"
+                  width="500px"
+                  alt="Leetcode"
+                />
+                <a href="https://leetcode.com/Priyanshu735/">
+                  <h3>Leetcode</h3>
+                </a>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+              <div class="testimonial-slide swiper-slide">
+                <img
+                  src="gfg.jpeg"
+                  height="230px"
+                  width="500px"
+                  alt="GeeksForGeeks"
+                />
+                <a href="https://www.geeksforgeeks.org/user/kumarpriy7tzo/">
+                  <h3>GeeksForGeeks</h3>
+                </a>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+              <div class="testimonial-slide swiper-slide">
+                <img
+                  src="codechef.jpeg"
+                  height="230px"
+                  width="500px"
+                  alt="Code Chef"
+                />
+                <a href="https://www.codechef.com/users/priyanshuaarya">
+                  <h3>Code Chef</h3>
+                </a>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+              <div class="testimonial-slide swiper-slide">
+                <img
+                  src="hackerrank.jpeg"
+                  height="230px"
+                  width="500px"
+                  alt="Hacker Rank"
+                />
+                <a href="https://www.hackerrank.com/profile/kumarpriyanshu74">
+                  <h3>Hacker Rank</h3>
+                </a>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form id="contact-form" action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+      <script type="text/javascript">
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent the default form submission
+  
+          // These IDs from the previous steps
+          const serviceID = 'priyanshu735';
+          const templateID = 'template_s5nf1qp';
+  
+          // Send the email here
+          emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+              alert('Sent!');
+            }, (err) => {
+              alert(JSON.stringify(err));
+            });
+        });
+      </script>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy: 2024 by Priyanshu | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- scroll reveal -->   
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
